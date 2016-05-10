@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="400dp"
+    android:layout_height="520dp">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validate:"
+            android:id="@+id/result"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Yes or No"
+            android:id="@+id/result_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:id="@+id/first_pic" />
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="250dp"
+            android:id="@+id/second_pic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="Take another picture"
+            android:id="@+id/retake_pic" />
+    </LinearLayout>
+
+</LinearLayout>

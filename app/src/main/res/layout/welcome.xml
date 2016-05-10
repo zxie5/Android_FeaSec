@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#FFFFCC">
+
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nWelcome"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.75"
+        android:textSize="50dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:id="@+id/takePic"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.18"
+        android:background="#CCFFFF"/>
+
+
+</LinearLayout>

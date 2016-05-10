@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="319dp"
+        android:text="Click save button to save\n or \n click validate to validate the identity"
+        android:id="@+id/result_figure"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.96"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/saveButton"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Validate"
+            android:id="@+id/validate"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/exit"
+            android:layout_row="5"
+            android:layout_column="0" />
+    </LinearLayout>
+
+</GridLayout>
